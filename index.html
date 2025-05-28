@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Security Expert - Personal Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0f172a',
+            accent: '#38bdf8',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-primary text-white font-sans scroll-smooth">
+
+  <!-- Header -->
+  <header class="bg-primary sticky top-0 z-50 shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">CyberSec ID</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-accent">Tentang</a>
+        <a href="#services" class="hover:text-accent">Jasa</a>
+        <a href="#portfolio" class="hover:text-accent">Portofolio</a>
+        <a href="#contact" class="hover:text-accent">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="py-20 text-center bg-gradient-to-b from-black to-primary">
+    <h2 class="text-4xl font-extrabold mb-4">Ahli Cyber Security & Penetration Testing</h2>
+    <p class="text-lg max-w-xl mx-auto">Saya membantu perusahaan dan individu melindungi sistem dari serangan digital, audit keamanan, dan pelatihan.</p>
+    <a href="#contact" class="mt-6 inline-block bg-accent text-black font-bold px-6 py-3 rounded-full hover:bg-sky-400 transition">Hubungi Saya</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">Tentang Saya</h3>
+      <p class="text-lg text-gray-300">Saya adalah profesional cyber security dengan lebih dari 5 tahun pengalaman dalam ethical hacking, security audit, dan digital forensics. Berpengalaman membantu startup hingga korporasi nasional menjaga keamanan informasi mereka.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">Layanan Saya</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-primary p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-bold mb-2">Penetration Testing</h4>
+          <p>Menguji keamanan aplikasi web, jaringan, dan sistem terhadap potensi serangan.</p>
+        </div>
+        <div class="bg-primary p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-bold mb-2">Audit Keamanan</h4>
+          <p>Evaluasi menyeluruh terhadap sistem informasi untuk mengidentifikasi celah keamanan.</p>
+        </div>
+        <div class="bg-primary p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-bold mb-2">Pelatihan Cyber Security</h4>
+          <p>Workshop & pelatihan bagi tim internal untuk meningkatkan awareness dan skill keamanan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">Portofolio</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-4 rounded shadow">
+          <h4 class="text-lg font-bold">Audit Keamanan Bank XYZ</h4>
+          <p class="text-sm text-gray-400 mt-2">Audit lengkap sistem keamanan internal & eksternal.</p>
+        </div>
+        <div class="bg-gray-800 p-4 rounded shadow">
+          <h4 class="text-lg font-bold">Pentest Aplikasi E-Commerce</h4>
+          <p class="text-sm text-gray-400 mt-2">Simulasi serangan & laporan mitigasi untuk client retail online.</p>
+        </div>
+        <div class="bg-gray-800 p-4 rounded shadow">
+          <h4 class="text-lg font-bold">Workshop Cyber Awareness</h4>
+          <p class="text-sm text-gray-400 mt-2">Pelatihan tim IT dan non-IT untuk keamanan dasar digital.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 bg-gray-900">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">Hubungi Saya</h3>
+      <p class="mb-6 text-gray-300">Tertarik bekerja sama atau butuh konsultasi cepat?</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nama Anda" class="w-full p-3 rounded bg-gray-800 text-white" required />
+        <input type="email" placeholder="Email" class="w-full p-3 rounded bg-gray-800 text-white" required />
+        <textarea rows="4" placeholder="Pesan" class="w-full p-3 rounded bg-gray-800 text-white" required></textarea>
+        <button type="submit" class="w-full bg-accent text-black font-bold py-3 rounded hover:bg-sky-400 transition">Kirim</button>
+      </form>
+      <a href="https://wa.me/6281234567890" target="_blank" class="mt-4 inline-block text-accent hover:underline">Atau chat langsung via WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-primary border-t border-gray-700">
+    <p class="text-sm text-gray-400">© 2025 CyberSec ID. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
